@@ -11,7 +11,6 @@ btnCreate.addEventListener("click", (e) => {
   const quantityElement = e.target.previousElementSibling.value;
 
   boxes.append(...createBoxes(quantityElement));
-  console.log(startSize);
 });
 
 btnDestroy.addEventListener("click", () => {

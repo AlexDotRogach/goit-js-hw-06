@@ -5,7 +5,7 @@ inputText.addEventListener("blur", (e) => {
   const elemLen = target.value.length;
   const elemNeedLen = target.dataset.length;
 
-  if (elemLen == elemNeedLen) {
+  if (elemLen === elemNeedLen) {
     changeState(target, "valid");
   } else {
     changeState(target, "invalid");
